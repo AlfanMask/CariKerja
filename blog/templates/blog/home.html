@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <div class="container">
+        {% for post in posts %}
+        <div class="row" style="padding: 15px;">
+            <div class="col">
+                    <h1 style="font-size: 23px;">{{ post.title }}</h1>
+                    <div class="row">
+                        <div class="col d-sm-flex justify-content-sm-start align-items-sm-center" style="color: rgb(154,163,173);">
+                            <p style="width: 146px;">{{ post.author }}</p>
+                            <p style="width: 100px;">{{ post.date }}<br></p>
+                        </div>
+                    </div>
+                    <p style="margin-top: -14px;font-size: 18px;">{{ post.content }}</p>
+            </div>
+        </div>
+        {% endfor %} 
+    </div>
+{% endblock content %}
