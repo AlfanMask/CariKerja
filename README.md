@@ -9,5 +9,5 @@ Developing Objective :
 For Developer :
 * install python
 * install Django `pip install django`
-* di folder project `python manage.py startserver`
+* di folder project `python manage.py runserver`
 * bisa ke `localhost` / `127.0.0.1`
