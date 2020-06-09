@@ -11,3 +11,5 @@ For Developer :
 * install Django `pip install django`
 * di folder project `python manage.py runserver`
 * bisa ke `localhost` / `127.0.0.1`
+* Membuat Akun Admin `python manage.py createsuperuser`
+* Menuju Admin Page `localhost/admin`
